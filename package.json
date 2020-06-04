@@ -1,0 +1,22 @@
+{
+  "name": "gen-comp",
+  "version": "1.0.0",
+  "description": "gen-comp is a command line utility that enables you to generate a stateful component or stateless component",
+  "main": "bin/app.js",
+  "preferGlobal": true,
+  "bin": {
+    "generate": "bin/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generate-components",
+    "react-native"
+  ],
+  "author": "blessed-tawanda",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
